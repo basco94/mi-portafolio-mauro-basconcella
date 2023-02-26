@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cvestilos2.css">
+    <title>mi portafolio</title>
+</head>
+<body>
+    <header>
+        <div class="datos">
+            <h1>mauro basconcella</h1>
+            <h4>estudiante de administracion</h4>
+            <img src="foto1.jpg" class="foto">
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <a href="#" id="abrir">info</a>
+                <br><br>
+                <br><br>
+                    <div class="informacion">
+                        <div class="info">
+                            <fieldset class="datos-personales">
+                                <legend class="personal"></legend>
+                                    <p class="nombre"> Nombre y Apellido: mauro ivan basconcella</p>
+                                    <p class="doc">D.N.I: 38097784</p>
+                                    <p class="tel">Telefono: +54 1173644813</p>
+                                    <p class="nac">Arg- Buenos aires</p>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <br><br>
+                    <br><br>
+                    <div class="experiencia-profesional">
+                        <fieldset class="experiencia">
+                            <legend class="exp">Experiencia</legend>
+                                <p class="andreani">auxiliar administrativo en grupo logistico andreani</p> 
+                                <p class="grido">tareas administrativas, cajero. heladerias grido</p>
+                                <p class="moto-flete">moto-mensajeria </p>
+                        </fieldset>   
+                    </div>   
+                    <br><br>
+                    <br><br>
+                    <div class="data">
+                            <fieldset class="datos">
+                                <legend class="date">Datos Academicos</legend>
+                                    <p class="secundario">colegio N°7 buenos aires, hurlingham. finalizado en el año 2012</p>
+                                    <p class="universitario">actualmente cursando licenciatura en administracion, en la universidad <br> de merlo.</p> 
+                                    <p class="argentina-programa">cursando argentina programa (forma remota), cursando la parte de front-end</p>
+                            </fieldset>
+                        <br><br>
+                        <br><br>
+                    </div>
+                    <br><br>
+
+                    <div class="red">
+                        <section class="redes">
+                            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                            <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+                            <a href="https://www.youtube.com/" target="_blank"class="fa fa-youtube"></a>
+                            <a href="https://www.linkedin.com/" target="_blank"class="fa fa-linkedin"></a>
+                        </section>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <a class="descargas" href="JORGE SEBASTIÁN MEDINA - CURRICULUM.pdf" download>
+                              Descargar CV
+                            </a>  
+                    </div>
+                    <div class="container">
+                        <form action="/obtenerdatos">
+                        <div class="row">
+                          <div class="col-25">
+                            <label class="contacto">Contacto</Label>
+                            <label for="fname">Nombre</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Tu Nombre..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="lname">Correo</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="lname" name="lemail" placeholder="Tu E-mail..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="country">Pais</label>
+                          </div>
+                          <div class="col-75">
+                            <select id="country" name="País">
+                              <option value="argentina">Argentina</option>
+                              <option value="uruguay">Uruguay</option>
+                              <option value="chile">Chile</option>
+                              <option value="paraguay">Paraguay</option>
+                              <option value="brasil">Brasil</option>
+                              <option value="peru">Perú</option>
+                              <option value="españa">España</option>
+                              <option value="usa">USA</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="subject">Comentarios</label>
+                          </div>
+                          <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Escribe un Comentario.." style="height:200px"></textarea>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                          <input type="submit" value="enviar" onclick="obtenerdatos">
+                        </div>
+                        </form>
+                        
+                      </div>
+                      
+                    <br>
+                </section>
+                <p class="copy">&copy; 2023 Mauro Ivan Basconcella - Todos los Derechos Reservados. </p>
+                <br>
+                <br><br>
+                <br><br>
+                
+                     
+            <!--</header>-->   
+            <div id="miModal" class="modal">
+                <div class="flex" id="flex">
+                    <div class="contenido-modal">
+                        <div class="modal-header flex">
+                            <h2>Mauro Ivan Basconcella</h2>
+                            <span class="close" id="close">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Mi nombre es Mauro Basconcella soy de la cuidad de buenos aires, del partido de moron, realize mis estudios secundarios en el colegio N°7 de hurlingham en el año 2012
+                                , actualmente me encuentro cursando el 3 año de la carrera de licenciatura en administracion, y tambien cursando el curso de argentina programa 4.0
+                                actualmente trabajo como auxiliar administrativo en el grupo logistico andreani, ya hace 7 años que estoy trabajando en la compañia con lo cual mi intencion
+                                es seguir creciendo a nivel professional y adquirir nuevos conocimientos,herramientas y experiencia para poder seguir avanzando en la vida. mis objetivos son
+                                poder conseguir un trabajo de desarrollador o de algun puesto similiar a la carrera que actualmente estoy cursando y asi poder emprender en nuevos desafios a 
+                                niver Profesional
+                            </p>  
+                        </div>
+                         <div class="footer">
+                            <h3>Realizado por &copy Mauro basconcella</h3>
+                        </div>
+                        
+                        
+                   
+                    </div>   
+                       
+                    
+                </div>
+              
+            </div>     
+        </div>
+    </header>
+    
+    <script src="main.js"></script>
+</body>
+</html>
